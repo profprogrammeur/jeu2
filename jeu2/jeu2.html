@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ECRIRE UN MOT SIMPLE</title>
+    <link rel="stylesheet" type="text/css" href="jeu2.css">
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="jpg/ico.png" />
+</head>
+
+<body style="overflow: hidden;">
+    <div id="body">
+        <div id="fusDiv">
+            <img id="fusee" src="jpg/fuse2.png">
+            <div id="fuel">
+                <div id="reservoir">
+                </div>
+            </div>
+        </div>
+        <div class="wrapper" id="wrapper">
+            <div class="box box35" id="box35">
+                <div id="winnerDiv">
+                    <button onclick="fullScreen()" id="fullscreen">PLEIN <br> ECRAN</button>
+                    <p id="winner"> </p>
+                </div>
+                <img src="" id="pix">
+                <button onclick="reset()" id="rejouer">REJOUER</button>
+            </div>
+            <div class="box box5 " style="background: limegreen">
+                <input readonly type="text" name="pren" id="prenom" autocomplete="off" disabled="" maxlength="12">
+                <button class="play" id="play1" class="action ">► </button>
+            </div>
+            <!-- <div class="box box7 " id="box7"> -->
+            <div id="keyboard">
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <script type="text/javascript " src="jeu2.js"></script>
+</body>
+
+</html>
